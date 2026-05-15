@@ -89,6 +89,7 @@
     };
 
     let player = createPlayer();
+    let lastTime = 0;
     let won = false;
 
     function createPlayer() {
@@ -182,7 +183,7 @@
       ctx.strokeRect(0, 0, canvas.width, canvas.height);
     }
 
-    function loop() {
+    function loop(timestamp) {
       update();
       draw();
       requestAnimationFrame(loop);
