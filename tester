@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEST by Griffin Ashford</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f7f8fb;
+      color: #111827;
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+    .page {
+      width: min(100%, 960px);
+    }
+    .embed-wrapper {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-top: 56.25%;
+      overflow: hidden;
+      border-radius: 16px;
+      box-shadow: 0 18px 60px rgba(15, 23, 42, 0.12);
+      background: #fff;
+    }
+    .embed-wrapper iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .footer {
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+    .footer a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="embed-wrapper">
+      <iframe loading="lazy"
+        src="https://www.canva.com/design/DAHJxOJVsZY/rzwuGx6ByxTdH6e10M79iQ/view?embed"
+        allowfullscreen="allowfullscreen"
+        allow="fullscreen">
+      </iframe>
+    </div>
+    <div class="footer">
+      <p><a href="https://www.canva.com/design/DAHJxOJVsZY/rzwuGx6ByxTdH6e10M79iQ/view?utm_content=DAHJxOJVsZY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Open full design</a></p>
+      <p>Created by Griffin Ashford</p>
+    </div>
+  </main>
+</body>
+</html>
