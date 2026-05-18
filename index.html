@@ -50,13 +50,16 @@
       font-size: 0.95rem;
     }
   </style>
+    <link rel="stylesheet" href="baldis-basics/styles.css" />
 </head>
 <body>
   <div class="container">
     <h1>Baldi's Basics</h1>
-    <p>Play the official Baldi's Basics in Education and Learning game below. This site is now dedicated solely to Baldi's Basics.</p>
-    <iframe src="https://itch.io/embed/239841" allowfullscreen sandbox="allow-scripts allow-same-origin allow-popups allow-forms"></iframe>
-    <div class="footer">If the game fails to load, open it directly at <a href="https://basically-games.itch.io/baldis-basics" target="_blank" rel="noopener">Baldi's Basics on itch.io</a>.</div>
-  </div>
+    <p>Play the official Baldi's Basics in Education and Learning game below. This site now loads the local Baldi files instead of the external embed.</p>
+    <div id="baldi-game" class="baldi-game">
+      <p>Loading Baldi's Basics...</p>
+    </div>
+    <script defer src="baldis-basics/loader.js"></script>
+    <div class="footer">If the local files are missing, add the Baldi's Basics game assets into the <code>baldis-basics</code> folder.</div>
 </body>
 </html>
